@@ -28,12 +28,15 @@ With the imminent closure of the Skyblog platform, it's crucial to ensure that y
 ## Features
 
 - Download and archive your complete Skyblog content.
-  <img src="res/tree.png" alt="Folders" width="200"/>
+  <br>
+  <img src="res/tree.png" alt="Download" width="170"/>
 - Preserve posts, and save locally your images.
 - Seamlessly store your Skyblog archive locally and securely.
 - CLI-based interface for ease of use.
+  <br>
   <img src="res/CLI.png" alt="CLI" width="500"/>
 - Convert your Skyblog archive to a static website.
+  <br>
   <img src="res/ex.png" alt="Example" width="400"/>
 
 ## Installation
