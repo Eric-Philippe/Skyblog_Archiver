@@ -24,7 +24,10 @@ def get_image (resultSet: ResultSet):
     if (image_container is None):
         return None
     image = image_container.find("img")
-    return image.get("src")
+    if (image is None):
+        return None
+    else:
+        return image.get("src")
 
 def get_texte (resultSet: ResultSet):
     # Get the content inside the div with the class text-container
